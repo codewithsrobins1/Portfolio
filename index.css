@@ -1,0 +1,708 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+.sectionHeader{
+    text-align: center;
+    font-size: 3em;
+    color: #fff;
+    font-weight: 800;
+    padding: 1em;
+}
+
+.sectionHeader::after{ /* Pseudo Element to add white border bottom */
+    content: "";
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-bottom: 3px solid white;
+    width: 4%;
+}
+
+/* Landing Page */
+.landingPage{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+#title{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    right: 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+#title h1{
+    font-size: 4em;
+}
+
+#title p{
+    font-size: 2.2em;
+    padding-top: .7em;
+}
+
+#landingDesc{
+    color: #fdfd96;
+}
+
+/*Nav */
+nav{
+    height: 8vh;
+    position: relative;
+}
+
+.burger{
+    display: none;
+}
+
+.navLinks{
+    display: flex;
+    height: 8vh;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    position: absolute;
+    right: 0;
+}
+
+.navLinks li{
+    list-style: none;
+}
+
+.navLinks a:hover{
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    transition: .2s;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    border-bottom: 1px solid transparent;
+}
+
+
+/* Main Content */
+.mainWrapper{
+    background: linear-gradient(#1b2735, #090a0f);
+}
+
+/* About Me */
+.sectionDesc{
+    text-align: left;
+    font-size: 1.4em;
+    color: #fff;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btnContainer{
+    text-align: center;
+    margin: 5em 0px;;
+}
+
+#resumeBtn{
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: .3em .8em;
+    border: 4px solid #fff;
+    color: #fff;
+    background-color: #1b2735;
+    transition: .3s;
+    outline: none;
+}
+
+#resumeBtn:hover{
+    color: #1b2735;
+    border: 4px solid #1b2735;
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Skills */
+.skillsDiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.skills li{
+    list-style: none;
+    margin: 3em;
+}
+
+.skills img{
+    display: block;
+    margin: 0 auto;
+}
+
+.skillsImg{
+    text-align: center;
+}
+
+.skillsImg img{
+    height: 4em;
+    width: 4em;
+}
+
+.caption{
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 800;
+    padding: 1em 0px;
+}
+
+#aboutImg{
+    height: 25em;
+    width: 25em;
+}
+
+/* Projects */
+#projects{
+    margin-top: 8em;
+}
+.projectsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project{
+    width: 45%;
+    height: 35em;
+    margin: 1em 0px;
+}
+
+.project img{
+    width: 100%;
+    height: 25em;
+}
+
+.projectTitle{
+    text-align: center;
+    font-size: 1.4em;
+    color: #fff;
+    font-weight: 800;
+    padding: .8em 0px;;
+}
+
+.projectDesc{
+    text-align: center;
+    font-size: 1em;
+    width: 45%;
+    text-align: left;
+    margin: 10px auto;
+    color: #fff;
+}
+
+.viewCodeBtns{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 1.5em auto;
+}
+
+.viewCodeButton{
+    font-size: .8em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: .2em .7em;
+    border: 4px solid #fff;
+    color: #fff;
+    background-color: #1b2735;
+    transition: .4s;
+    outline: none;
+}
+
+.viewCodeButton:hover{
+    color: #1b2735;
+    border: 4px solid #1b2735;
+    background-color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* #moreProjects{
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 800;
+}
+
+#moreProjects span{
+    color: dodgerblue;
+    text-decoration: none;;
+} */
+
+
+/* Contact Me */ 
+#contactForm{
+    margin-top: 8em;
+}
+
+.contactDesc{
+    text-align: center;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 800;
+}
+
+#email{
+    text-align: center;
+    font-size: 1.5em;
+    color: #fdfd96;
+    padding: 2em 0px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.socialIcons img{
+    height: 2em;
+    width: 2em;
+    transition: .2s;
+}
+
+.socialIcons img:hover{
+    transform: scale(1.3);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1550px){
+    /* Skills */
+    .skillsDiv{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .skills li{
+        list-style: none;
+        margin: 2.8em;
+    }
+
+    /* Projects */
+    .project{
+        width: 45%;
+        height: 35em;
+        margin: 2em 0px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    /* Skills */
+    .skillsDiv{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    .skills li{
+        list-style: none;
+        margin: 2.5em;
+    }
+    
+    .skillsImg img{
+        height: 4em;
+        width: 4em;
+    }
+
+    #aboutImg{
+        height: 20em;
+        width: 20em;
+    }
+
+    /* Projects */
+    .project{
+        width: 45%;
+        height: 39em;
+        margin: 1em 0px;
+    }
+
+    .project img{
+        width: 100%;
+        height: 25em;
+    }
+
+    .projectDesc{
+        text-align: center;
+        font-size: 1em;
+        width: 60%;
+        text-align: left;
+        margin: 10px auto;
+        color: #fff;
+    }
+
+    .viewCodeBtns{
+        display: flex;
+        justify-content: space-around;
+        width: 65%;
+        margin: 1.5em auto;
+    }
+
+    /* Contact Me */
+    .socialIcons{
+        display: flex;
+        justify-content: space-between;
+        width: 8%;
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    /* About Me */
+    .sectionDesc{
+    text-align: left;
+    font-size: 1.3em;
+    color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    }
+
+    .btnContainer{
+        text-align: center;
+        margin: 3em 0px;;
+    }
+
+    .sectionHeader::after{ /* Pseudo Element to add white border bottom */
+        content: "";
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+        border-bottom: 3px solid white;
+        width: 7%;
+    }
+
+    #resumeBtn{
+        font-size: .9em;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: .2em .7em;
+        border: 4px solid #fff;
+        color: #fff;
+        background-color: #1b2735;
+        transition: .3s;
+        outline: none;
+    }
+    
+    #resumeBtn:hover{
+        color: #1b2735;
+        border: 4px solid #1b2735;
+        background-color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    /* Project */
+    .project img{
+        width: 100%;
+        height: 22em;
+    }
+
+    .project{
+        width: 45%;
+        height: 35em;
+        margin: .7em 0px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    /* Landing Page */
+    .navLinks{
+        width: 40%;
+    }
+
+    #title{
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        right: 0;
+        color: #fff;
+        font-weight: 400;
+    }
+
+    #title h1{
+        font-size: 3em;
+    }
+
+    #title p{
+        font-size: 1.7em;
+        padding-top: .7em;
+    }
+
+    /* About Me */
+    .sectionHeader{
+        font-size: 2.4em;
+        text-align: center;
+        padding: 1em;
+        color: #fff;
+    } 
+
+    .sectionDesc{
+        font-size: 1.3em;
+        text-align: left;
+        width: 70%;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    .skillsDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0em auto;
+        padding-bottom: 1em;
+    }
+
+    .skills img{
+        height: 5em;
+        width: 5em;
+        padding: 1em;
+    }
+
+    #aboutImg{
+        height: 15em;
+        width: 100%;
+        margin: 2em 0px;
+    }
+
+    /* Project */
+    .projectsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .project{
+        width: 65%;
+        height: 35em;
+        margin: 1em 0px;
+    }
+
+    /* Contact Me */ 
+    .socialIcons{
+        display: flex;
+        justify-content: space-between;
+        width: 12%;
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
+    
+    .socialIcons img{
+        height: 2em;
+        width: 2em;
+        transition: .2s;
+    }
+}
+
+@media screen and (max-width: 525px){
+    /* Landing Page */
+    .navLinks{
+        width: 45%;
+    }
+
+
+    .sectionHeader::after{ /* Pseudo Element to add white border bottom */
+        content: "";
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+        border-bottom: 3px solid white;
+        width: 15%;
+    }
+
+    /* Contact Me */ 
+    .socialIcons{
+        display: flex;
+        justify-content: space-between;
+        width: 15%;
+        margin: 0 auto;
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .sectionHeader{
+        text-align: center;
+        font-size: 2em;
+        color: #fff;
+        font-weight: 800;
+        padding: 1em;
+    }
+
+    /* Nav */
+    .navLinks{
+        width: 55%;
+    }
+
+    .navLinks a{
+        text-decoration: none;
+        color: #fff;
+        font-size: .8em;
+        border-bottom: 1px solid transparent;
+    }
+
+    /* Landing Page */
+    #title{
+        top: 45%;
+        left: 17%;
+    }
+    #title h1{
+        font-size: 2.5em;
+    }
+
+    #title p{
+        font-size: 1.4em;
+        padding-top: .7em;
+    }
+
+    /* About Me */
+    .sectionDesc{
+        text-align: left;
+        font-size: 1em;
+        color: #fff;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Skills */
+    .skillsDiv{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .skills{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .skillsImg img{
+        height: 4.2em;
+        width: 4.2em;
+    }
+
+    .caption{
+        font-size: .9em;
+        color: #fff;
+        font-weight: 800;
+        padding: 1em 0px;
+    }
+
+    #aboutImg{
+        height: 12em;
+        width: 12em;
+    }
+
+    /* Projects */
+    .project{
+        height: 30em;
+    }
+    .projectsContainer{
+        width: 90%;
+    }
+
+    .project img{
+        width: 100%;
+        height: 15em;
+    }
+
+    .projectDesc{
+        text-align: center;
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .viewCodeBtns{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 1.5em auto;
+    }
+
+    .viewCodeButton{
+        font-size: .6em;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: .3em .6em;
+        border: 2px solid #fff;
+        color: #fff;
+        background-color: #1b2735;
+        transition: .4s;
+        outline: none;
+    }
+
+    /* Contact Me */ 
+    #email{
+        font-size: 1.3em;
+    }
+
+    .socialIcons{
+        width: 25%;
+    }
+}

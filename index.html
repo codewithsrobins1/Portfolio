@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sean Robinson - Web Developer</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="stars.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Landing Page-->
+    <section class="landingPage">
+        <header>
+            <nav>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="navLinks">
+                    <li><a href="resume">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactForm">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <div id="title">
+            <h1>Hi, I'm Sean</h1>
+            <p>I'm a <span id="landingDesc">front-end web developer</span></p>
+        </div>
+    </section>
+
+    <div class="mainWrapper">
+        <!-- About Me-->
+        <section id="aboutMe">
+            <div class="aboutContainer">
+                <h1 class="sectionHeader">About Me</h1 class="aboutHeader">
+                <p class="sectionDesc">I'm a front-end developer from Huntington Beach, CA. I am passionate about front-end development, how information is displayed, and the feedbacks users give me about a website. 
+                    I love building exciting websites and learning something new everyday. I hope to expand my skills beyond front-end development to learn UX/UI design.</p>   
+                <div class="btnContainer">
+                    <button id="resumeBtn">Resumé</button>
+                </div>
+            </div>
+
+         <!-- About Me-->
+        <div class="skillsContainer">
+        <h1 class="sectionHeader">Skills</h1>
+            <div class="skillsDiv">
+                <ul class="skills">
+                    <li>
+                        <div class="skillsImg">
+                            <img src="img/html.svg" alt="">
+                            <p class="caption">HTML</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillsImg">
+                            <img src="img/css.svg" alt="">
+                            <p class="caption">CSS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillsImg">
+                            <img src="img/Javascript.svg" alt="">
+                            <p class="caption">Javascript</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillsImg">
+                            <img src="img/bootstrap.svg" alt="">
+                            <p class="caption">Bootstrap</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillsImg">
+                            <img src="img/git.svg" alt="">
+                            <p class="caption">Git</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillsImg">
+                            <img src="img/github.svg" alt="">
+                            <p class="caption">Github</p>
+                        </div>
+                    </li>
+                </ul>
+                <img id="aboutImg" src="img/webdev.svg" alt="">
+            </div>
+        </div>     
+        </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h1 class="sectionHeader">Projects</h1>
+
+        <div class="projectsContainer">
+            <div class="project">
+                <img class="projectImg" src="img/imgCoffeeshop.PNG" alt="">
+                <h2 class="projectTitle">Last Drop Coffee</h2>
+                    <p class="projectDesc">Coffee shop website that uses Instagram API to generate image gallery</p>
+                    <div class="viewCodeBtns">
+                        <button id="coffeeSite" class="viewCodeButton" type="button">Live Site</button>
+                        <button id="coffeeCode" class="viewCodeButton" type="button"> View Code</button>
+                    </div>
+            </div>
+            
+            <div class="project">
+                <img class="projectImg" src="img/imgEnviron.PNG" alt="">
+                <h2 class="projectTitle">Environ Real Estate</h2>
+                <p class="projectDesc">Multi-page real estate company page made using Bootstrap.</p>   
+                    <div class="viewCodeBtns">
+                        <button id="environSite" class="viewCodeButton" type="button">Live Site</button>
+                        <button id="environCode" class="viewCodeButton" type="button"> View Code</button>
+                    </div>
+            </div>
+
+            <div class="project">
+                <img class="projectImg" src="img/imgTech.PNG" alt="">
+                <h2 class="projectTitle">SYSEAN</h2>
+                <p class="projectDesc">Fictional digital service website. Made using HTML, CSS, and Javascript.</p>
+                    <div class="viewCodeBtns">
+                        <button id="cakeSite" class="viewCodeButton" type="button">Live Site</button>
+                        <button id="cakeCode" class="viewCodeButton" type="button"> View Code</button>
+                     </div>
+            </div>
+                
+
+            <div class="project">
+                <img class="projectImg" src="img/imgTutoring.PNG" alt="">
+                <h2 class="projectTitle">Premrajan Tutoring</h2 class="projectTitle">
+                <p class="projectDesc">Client website for tutoring service made using fullpage.js.</p>
+                    <div class="viewCodeBtns">
+                        <button id="beautySite" class="viewCodeButton" type="button">Live Site</button>
+                        <button id="beautyCode" class="viewCodeButton" type="button"> View Code</button>
+                    </div>
+            </div>
+        </div>
+
+            <!-- <a id="moreProjects">To view more projects, see my <a href="https://github.com/codewithsrobins1"><span>Github</span></a></p> -->
+        </section>
+
+        <! -- Contact Me -->
+        <section id="contactForm">
+            <h1 class="sectionHeader">Contact Me</h1>
+            <div class="contactDesc">
+                <p>Let's talk</p>
+                <p>Let's connect</p>
+                <p>Let's build something great</p>
+            </div>
+            
+            <div id="email">
+                <p>codewithsrobins1@gmail.com</p>
+            </div>
+
+            <div class="socialIcons">
+                <a href="https://www.linkedin.com/in/srobins1/"><img src="img/linkedin.svg" alt=""></a>
+                <a href="https://github.com/codewithsrobins1"><img src="img/github.svg" alt=""></a>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>  
+    </body>
+</html>
