@@ -19,14 +19,14 @@ titleChange();
 var coffeeSite = document.getElementById('coffeeSite');
 var coffeeCode = document.getElementById('coffeeCode');
 
+var environSite = document.getElementById('environSite');
+var environCode = document.getElementById('environCode');
+
 var beautySite = document.getElementById('beautySite');
 var beautyCode = document.getElementById('beautyCode');
 
-var cakeSite = document.getElementById('cakeSite');
-var cakeCode = document.getElementById('cakeCode');
-
-var environSite = document.getElementById('environSite');
-var environCode = document.getElementById('environCode');
+var techSite = document.getElementById('techSite');
+var techCode = document.getElementById('techCode');
 
 var tutoringSite = document.getElementById('tutoringSite');
 var tutoringCode = document.getElementById('tutoringCode');
@@ -37,34 +37,11 @@ function coffeePort(){
 };
 
 function coffeeSource(){
-  window.open('http://www.google.com')
+  window.open('https://github.com/codewithsrobins1/LastDropCafe')
 }
 
 coffeeSite.addEventListener('click', coffeePort);
 coffeeCode.addEventListener('click', coffeeSource);
-
-//Beauty Store Project
-function beautyPort(){
-  window.open('http://www.google.com');
-};
-function beautySource(){
-  window.open('http://www.google.com')
-}
-
-beautySite.addEventListener('click', beautyPort);
-beautyCode.addEventListener('click', beautySource);
-
-//Cake Project
-function cakePort(){
-  window.open('http://www.google.com');
-};
-
-function cakeSource(){
-  window.open('http://www.google.com')
-}
-
-cakeSite.addEventListener('click', cakePort);
-cakeCode.addEventListener('click', cakeSource);
 
 // Environ Project
 function environPort(){
@@ -72,20 +49,32 @@ function environPort(){
 };
 
 function environSource(){
-  window.open('http://www.google.com')
+  window.open('https://github.com/codewithsrobins1/EnvironRealEstate')
 }
 
 environSite.addEventListener('click', environPort);
 environCode.addEventListener('click', environSource);
 
+//Tech Project
+function techPort(){
+  window.open('http://www.google.com');
+};
+
+function techSource(){
+  window.open('https://github.com/codewithsrobins1/Tech-Services')
+}
+
+techSite.addEventListener('click', techPort);
+techCode.addEventListener('click', techSource);
+
 // //Tutoring Project
-// function tutoringPort(){
-//   window.open('http://www.google.com');
-// };
+function tutoringPort(){
+  window.open('http://www.google.com');
+};
 
-// function tutoringSource(){
-//   window.open('http://www.google.com')
-// }
+function tutoringSource(){
+  window.open('https://github.com/codewithsrobins1/PremTutoring')
+}
 
-// tutoringSite.addEventListener('click', tutoringPort);
-// tutoringCode.addEventListener('click', tutoringSource);
+tutoringSite.addEventListener('click', tutoringPort);
+tutoringCode.addEventListener('click', tutoringSource);
