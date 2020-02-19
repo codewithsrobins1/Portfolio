@@ -126,8 +126,8 @@
                 <h2 class="projectTitle">SYSEAN</h2>
                 <p class="projectDesc">Fictional digital service website. Made using HTML, CSS, and Javascript.</p>
                     <div class="viewCodeBtns">
-                        <button id="cakeSite" class="viewCodeButton" type="button">Live Site</button>
-                        <button id="cakeCode" class="viewCodeButton" type="button"> View Code</button>
+                        <button id="techSite" class="viewCodeButton" type="button">Live Site</button>
+                        <button id="techCode" class="viewCodeButton" type="button"> View Code</button>
                      </div>
             </div>
                 
@@ -147,8 +147,8 @@
                 <h2 class="projectTitle">Premrajan Tutoring</h2 class="projectTitle">
                 <p class="projectDesc">Client website for tutoring service made using fullpage.js.</p>
                     <div class="viewCodeBtns">
-                        <button id="beautySite" class="viewCodeButton" type="button">Live Site</button>
-                        <button id="beautyCode" class="viewCodeButton" type="button"> View Code</button>
+                        <button id="tutoringSite" class="viewCodeButton" type="button">Live Site</button>
+                        <button id="tutoringCode" class="viewCodeButton" type="button"> View Code</button>
                     </div>
             </div> -->
         </div>
@@ -165,9 +165,22 @@
                 <p>Let's build something great</p>
             </div>
             
-            <div id="email">
+            <form id="formContact" class=""  action="https://formspree.io/mgekjoaz" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="formName" placeholder="Name:" required>
+      
+                <label for="email">Email:</label>
+                <input type="email" name="_replyto" id="formEmail" placeholder="Email Address:" required>
+      
+                <label for="comments">Message:</label>
+                <textarea name="comments" placeholder="Type your message here..." required></textarea>
+      
+                <button type="submit" name="button" value="send">Submit</button>
+            </form>
+
+            <!-- <div id="email">
                 <p>codewithsrobins1@gmail.com</p>
-            </div>
+            </div> -->
 
             <div class="socialIcons">
                 <a href="https://www.linkedin.com/in/srobins1/"><img src="img/linkedin.svg" alt=""></a>
