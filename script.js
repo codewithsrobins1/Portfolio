@@ -1,5 +1,5 @@
 //Landing Page Description Switch
-let descriptions = ['front-end developer','builder', 'learner'];
+let descriptions = ['front-end developer','sports enthusiast', 'video-gamer'];
 let count = 0;
 const title = document.querySelector('#landingDesc');
 const timer = setInterval(titleChange, 2000);
