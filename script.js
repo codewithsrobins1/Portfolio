@@ -22,14 +22,14 @@ var coffeeCode = document.getElementById('coffeeCode');
 var environSite = document.getElementById('environSite');
 var environCode = document.getElementById('environCode');
 
-var beautySite = document.getElementById('beautySite');
-var beautyCode = document.getElementById('beautyCode');
+var sportsSite = document.getElementById('sportsSite');
+var sportsCode = document.getElementById('sportsCode');
 
 var techSite = document.getElementById('techSite');
 var techCode = document.getElementById('techCode');
 
-var tutoringSite = document.getElementById('tutoringSite');
-var tutoringCode = document.getElementById('tutoringCode');
+// var tutoringSite = document.getElementById('tutoringSite');
+// var tutoringCode = document.getElementById('tutoringCode');
 
 //Coffee Project
 function coffeePort(){
@@ -68,13 +68,26 @@ techSite.addEventListener('click', techPort);
 techCode.addEventListener('click', techSource);
 
 // //Tutoring Project
-function tutoringPort(){
+function sportsPort(){
   window.open('http://www.google.com');
 };
 
-function tutoringSource(){
-  window.open('https://github.com/codewithsrobins1/PremTutoring')
+function sportsSource(){
+  window.open('https://github.com/codewithsrobins1/Outlet-Sports-Stream')
 }
 
-tutoringSite.addEventListener('click', tutoringPort);
-tutoringCode.addEventListener('click', tutoringSource);
+sportsSite.addEventListener('click', sportsPort);
+sportsCode.addEventListener('click', sportsSource);
+
+
+// // //Tutoring Project
+// function tutoringPort(){
+//   window.open('http://www.google.com');
+// };
+
+// function tutoringSource(){
+//   window.open('https://github.com/codewithsrobins1/PremTutoring')
+// }
+
+// tutoringSite.addEventListener('click', tutoringPort);
+// tutoringCode.addEventListener('click', tutoringSource)
