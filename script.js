@@ -22,14 +22,14 @@ var coffeeCode = document.getElementById('coffeeCode');
 var environSite = document.getElementById('environSite');
 var environCode = document.getElementById('environCode');
 
-var sportsSite = document.getElementById('sportsSite');
-var sportsCode = document.getElementById('sportsCode');
+var trainingSite = document.getElementById('trainingSite');
+var trainingCode = document.getElementById('trainingCode');
 
 var techSite = document.getElementById('techSite');
 var techCode = document.getElementById('techCode');
 
-// var tutoringSite = document.getElementById('tutoringSite');
-// var tutoringCode = document.getElementById('tutoringCode');
+var tutoringSite = document.getElementById('tutoringSite');
+var tutoringCode = document.getElementById('tutoringCode');
 
 //Coffee Project
 function coffeePort(){
@@ -67,27 +67,26 @@ function techSource(){
 techSite.addEventListener('click', techPort);
 techCode.addEventListener('click', techSource);
 
-// //Tutoring Project
-function sportsPort(){
+// Seans Sports Training Project
+function trainingPort(){
   window.open('http://www.google.com');
 };
 
-function sportsSource(){
-  window.open('https://github.com/codewithsrobins1/Outlet-Sports-Stream')
+function trainingSource(){
+  window.open('https://github.com/codewithsrobins1/Seans-Skills-Training');
 }
 
-sportsSite.addEventListener('click', sportsPort);
-sportsCode.addEventListener('click', sportsSource);
+trainingSite.addEventListener('click', trainingPort);
+trainingCode.addEventListener('click', trainingSource);
 
+//Tutoring Project
+function tutoringPort(){
+  window.open('http://www.google.com');
+};
 
-// // //Tutoring Project
-// function tutoringPort(){
-//   window.open('http://www.google.com');
-// };
+function tutoringSource(){
+  window.open('https://github.com/codewithsrobins1/PremTutoring')
+}
 
-// function tutoringSource(){
-//   window.open('https://github.com/codewithsrobins1/PremTutoring')
-// }
-
-// tutoringSite.addEventListener('click', tutoringPort);
-// tutoringCode.addEventListener('click', tutoringSource)
+tutoringSite.addEventListener('click', tutoringPort);
+tutoringCode.addEventListener('click', tutoringSource)
