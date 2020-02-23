@@ -1,9 +1,14 @@
-# Portfolio 
+# Sean Robinson Portfolio 
 
-Portfolio website showcasing various projects. 
+Portfolio website showcasing various projects.
 
-## Built With
+## Link to Live Site
 
-* HTML 
+https://codewithsrobins1.github.io/Portfolio/
+
+### Built With
+
+* HTML
 * CSS
 * Javascript
+* Formspree - form backend, API and email service for HTML forms
