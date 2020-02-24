@@ -33,7 +33,7 @@ var tutoringCode = document.getElementById('tutoringCode');
 
 //Coffee Project
 function coffeePort(){
-  window.open('http://www.google.com');
+  window.open('https://codewithsrobins1.github.io/LastDropCafe/');
 };
 
 function coffeeSource(){
@@ -45,7 +45,7 @@ coffeeCode.addEventListener('click', coffeeSource);
 
 // Environ Project
 function environPort(){
-  window.open('http://www.google.com');
+  window.open('https://codewithsrobins1.github.io/EnvironRealEstate/');
 };
 
 function environSource(){
@@ -57,7 +57,7 @@ environCode.addEventListener('click', environSource);
 
 //Tech Project
 function techPort(){
-  window.open('http://www.google.com');
+  window.open('https://codewithsrobins1.github.io/Sysean-Tech/');
 };
 
 function techSource(){
@@ -69,7 +69,7 @@ techCode.addEventListener('click', techSource);
 
 // Seans Sports Training Project
 function trainingPort(){
-  window.open('http://www.google.com');
+  window.open('https://codewithsrobins1.github.io/Seans-Skills-Training/');
 };
 
 function trainingSource(){
@@ -81,7 +81,7 @@ trainingCode.addEventListener('click', trainingSource);
 
 //Tutoring Project
 function tutoringPort(){
-  window.open('http://www.google.com');
+  window.open('https://codewithsrobins1.github.io/PremTutoring/');
 };
 
 function tutoringSource(){
