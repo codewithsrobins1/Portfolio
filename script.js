@@ -14,6 +14,15 @@ function titleChange (){
 
 titleChange();
 
+//Resume Button
+const resumeButton = document.getElementById('resumeBtn');
+
+function resume(){
+  window.open("https://drive.google.com/open?id=1lzK94QZaYs4bkvGhsUgSRZharIjZHCRK")
+}
+
+resumeButton.addEventListener('click', resume);
+
 
 //View Project Buttons
 var coffeeSite = document.getElementById('coffeeSite');
