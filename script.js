@@ -18,7 +18,7 @@ titleChange();
 const resumeButton = document.getElementById('resumeBtn');
 
 function resume(){
-  window.open("https://drive.google.com/open?id=1X_A0hXaPo68q_vzPP41yPCpFcQoANzGO")
+  window.open("https://drive.google.com/open?id=1U2OaiKiEySZfqx6ggzcDA5JgYlSvjjCq")
 }
 
 resumeButton.addEventListener('click', resume);
