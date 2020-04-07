@@ -40,6 +40,15 @@ var techCode = document.getElementById('techCode');
 var tutoringSite = document.getElementById('tutoringSite');
 var tutoringCode = document.getElementById('tutoringCode');
 
+var paletteSite = document.getElementById('paletteSite');
+var paletteCode = document.getElementById('paletteCode');
+
+var kanyeSite = document.getElementById('kanyeSite');
+var kanyeCode = document.getElementById('kanyeCode');
+
+var cakesSite = document.getElementById('cakesSite');
+var cakesCode = document.getElementById('cakesCode');
+
 //Coffee Project
 function coffeePort(){
   window.open('https://codewithsrobins1.github.io/LastDropCafe/');
@@ -99,3 +108,39 @@ function tutoringSource(){
 
 tutoringSite.addEventListener('click', tutoringPort);
 tutoringCode.addEventListener('click', tutoringSource)
+
+//PalettePicker Project
+function palettePort(){
+  window.open('https://palette-picker.netlify.com/');
+};
+
+function paletteSource(){
+  window.open('https://github.com/codewithsrobins1/palette-picker')
+}
+
+paletteSite.addEventListener('click', palettePort);
+paletteCode.addEventListener('click', paletteSource);
+
+//KanyeSays Project
+function kanyePort(){
+  window.open('https://kanye-says.netlify.com/');
+};
+
+function kanyeSource(){
+  window.open('https://github.com/codewithsrobins1/kanye-says')
+}
+
+kanyeSite.addEventListener('click', kanyePort);
+kanyeCode.addEventListener('click', kanyeSource);
+
+//LienCakes Project
+function cakesPort(){
+  window.open('https://codewithsrobins1.github.io/LienCakes/');
+};
+
+function cakesSource(){
+  window.open('https://github.com/codewithsrobins1/LienCakes')
+}
+
+cakesSite.addEventListener('click', cakesPort);
+cakesCode.addEventListener('click', cakesSource);
