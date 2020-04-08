@@ -39,7 +39,7 @@
 
     <div class="mainWrapper">
         <!-- About Me-->
-        <section id="aboutMe">
+        <section class="container">
             <div class="aboutContainer">
                 <h1 class="sectionHeader">About Me</h1 class="aboutHeader">
                 <p class="sectionDesc">I'm a front-end developer from Huntington Beach, CA. I am passionate about front-end development, how information is displayed, and the feedbacks users give me about a website. 
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-         <!-- About Me-->
+         <!-- Skills -->
         <div class="skillsContainer">
         <h1 class="sectionHeader">Skills</h1>
             <div class="skillsDiv">
@@ -103,14 +103,14 @@
         </section>
 
     <!-- Projects -->
-    <section id="projects">
+    <section class="container">
         <h1 class="sectionHeader">Projects</h1>
 
         <div class="projectsContainer">
             <div class="project">
                 <img class="projectImg" src="img/imgPalette.PNG" alt="">
                 <h2 class="projectTitle">Palette Picker</h2 class="projectTitle">
-                <p class="projectDesc">Color palette maker made with React</p>
+                <p class="projectDesc">Color palette maker made with React. Users can select from provided palettes or make their own.</p>
                     <div class="viewCodeBtns">
                         <button id="paletteSite" class="viewCodeButton" type="button">Live Site</button>
                         <button id="paletteCode" class="viewCodeButton" type="button"> View Code</button>
@@ -120,7 +120,7 @@
             <div class="project">
                 <img class="projectImg" src="img/imgKanye.PNG" alt="">
                 <h2 class="projectTitle">Kanye Says</h2 class="projectTitle">
-                <p class="projectDesc">Kanye West quote generator made with React</p>
+                <p class="projectDesc">Kanye West quote generator made with React. See what Kanye has to say.</p>
                     <div class="viewCodeBtns">
                         <button id="kanyeSite" class="viewCodeButton" type="button">Live Site</button>
                         <button id="kanyeCode" class="viewCodeButton" type="button"> View Code</button>
@@ -130,7 +130,7 @@
             <div class="project">
                 <img class="projectImg" src="img/imgCoffeeshop.PNG" alt="">
                 <h2 class="projectTitle">Last Drop Coffee</h2>
-                    <p class="projectDesc">Fictional coffee shop page with a single-page design made using HTML and CSS</p>
+                    <p class="projectDesc">Fictional coffee shop website with a single-page design made using HTML and CSS.</p>
                     <div class="viewCodeBtns">
                         <button id="coffeeSite" class="viewCodeButton" type="button">Live Site</button>
                         <button id="coffeeCode" class="viewCodeButton" type="button"> View Code</button>
@@ -140,7 +140,7 @@
             <div class="project">
                 <img class="projectImg" src="img/imgCakes.PNG" alt="">
                 <h2 class="projectTitle">Lien Cakes</h2 class="projectTitle">
-                <p class="projectDesc">Fictional cake bakery site made with HTML, CSS, and Bootstrap</p>
+                <p class="projectDesc">Fictional cake bakery website with multiple pages made using HTML, CSS, and Bootstrap</p>
                     <div class="viewCodeBtns">
                         <button id="cakesSite" class="viewCodeButton" type="button">Live Site</button>
                         <button id="cakesCode" class="viewCodeButton" type="button"> View Code</button>
@@ -150,7 +150,7 @@
             <div class="project">
                 <img class="projectImg" src="img/imgEnviron.PNG" alt="">
                 <h2 class="projectTitle">Environ Real Estate</h2>
-                <p class="projectDesc">Multi-page real estate website for a fictional company made using Bootstrap</p>   
+                <p class="projectDesc">Fictional real-estate agency website made using HTML, CSS, and Bootstrap.</p>   
                     <div class="viewCodeBtns">
                         <button id="environSite" class="viewCodeButton" type="button">Live Site</button>
                         <button id="environCode" class="viewCodeButton" type="button"> View Code</button>
@@ -160,7 +160,7 @@
             <div class="project">
                 <img class="projectImg" src="img/imgTech.PNG" alt="">
                 <h2 class="projectTitle">SYSEAN</h2>
-                <p class="projectDesc">Fictional digital service website. Made using HTML, CSS, and Javascript</p>
+                <p class="projectDesc">Fictional digital service website made using HTML, CSS, and Javascript.</p>
                     <div class="viewCodeBtns">
                         <button id="techSite" class="viewCodeButton" type="button">Live Site</button>
                         <button id="techCode" class="viewCodeButton" type="button"> View Code</button>
@@ -171,7 +171,7 @@
             <div class="project">
                 <img class="projectImg" src="img/imgTraining.PNG" alt="">
                 <h2 class="projectTitle">Sean's Skills Training</h2 class="projectTitle">
-                <p class="projectDesc">Fictional sports trainer service website built with HTML, CSS, & Javascript</p>
+                <p class="projectDesc">Fictional sports trainer service website built with HTML, CSS, & Javascript.</p>
                     <div class="viewCodeBtns">
                         <button id="trainingSite" class="viewCodeButton" type="button">Live Site</button>
                         <button id="trainingCode" class="viewCodeButton" type="button"> View Code</button>
@@ -181,7 +181,7 @@
             <div class="project">
                 <img class="projectImg" src="img/imgTutoring.PNG" alt="">
                 <h2 class="projectTitle">Premrajan Tutoring</h2 class="projectTitle">
-                <p class="projectDesc">Minimalistic website for a client made using HTML, CSS, and fullpage.js</p>
+                <p class="projectDesc">Minimalistic website for a client made using HTML, CSS, and fullpage.js.</p>
                     <div class="viewCodeBtns">
                         <button id="tutoringSite" class="viewCodeButton" type="button">Live Site</button>
                         <button id="tutoringCode" class="viewCodeButton" type="button"> View Code</button>
@@ -195,36 +195,38 @@
         </section>
 
         <! -- Contact Me -->
-        <section id="contactForm">
-            <h1 class="sectionHeader">Contact Me</h1>
-            <div class="contactDesc">
-                <p>Let's talk</p>
-                <p>Let's connect</p>
-                <p>Let's build something great</p>
-            </div>
-            
-            <form id="formContact" class=""  action="https://formspree.io/mgekjoaz" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="formName" placeholder="Name:" required>
-      
-                <label for="email">Email:</label>
-                <input type="email" name="_replyto" id="formEmail" placeholder="Email Address:" required>
-      
-                <label for="comments">Message:</label>
-                <textarea name="comments" placeholder="Type your message here..." required></textarea>
-      
-                <button type="submit" name="button" value="send">Submit</button>
-            </form>
+        <div class="container">
+            <section id="contactForm">
+                <h1 class="sectionHeader">Contact Me</h1>
+                <div class="contactDesc">
+                    <p>Let's talk</p>
+                    <p>Let's connect</p>
+                    <p>Let's build something great</p>
+                </div>
+                
+                <form id="formContact" class=""  action="https://formspree.io/mgekjoaz" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="formName" placeholder="Name:" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" name="_replyto" id="formEmail" placeholder="Email Address:" required>
+        
+                    <label for="comments">Message:</label>
+                    <textarea name="comments" placeholder="Type your message here..." required></textarea>
+        
+                    <button type="submit" name="button" value="send">Submit</button>
+                </form>
 
-            <!-- <div id="email">
-                <p>codewithsrobins1@gmail.com</p>
-            </div> -->
+                <!-- <div id="email">
+                    <p>codewithsrobins1@gmail.com</p>
+                </div> -->
 
-            <div class="socialIcons">
-                <a href="https://www.linkedin.com/in/srobins1/"><img src="img/linkedin.svg" alt=""></a>
-                <a href="https://github.com/codewithsrobins1"><img src="img/github.svg" alt=""></a>
-            </div>
-        </section>
+                <div class="socialIcons">
+                    <a href="https://www.linkedin.com/in/srobins1/"><img src="img/linkedin.svg" alt=""></a>
+                    <a href="https://github.com/codewithsrobins1"><img src="img/github.svg" alt=""></a>
+                </div>
+            </section>
+        </div>
     </div>
 
     <script src="script.js"></script>  
