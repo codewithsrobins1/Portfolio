@@ -51,7 +51,7 @@ body{
     position: absolute;
     text-align: center;
     top: 40%;
-    left: 3%;
+    left: 0%;
     right: 0;
     color: #fff;
 }
@@ -99,7 +99,7 @@ body{
     position: absolute;
     text-align: center;
     top: 90%;
-    left: 50%;
+    left: 49%;
     right: 0;
     color: #fff;
   }
