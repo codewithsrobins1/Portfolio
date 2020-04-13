@@ -2,7 +2,7 @@
 let descriptions = ['front-end developer','sports enthusiast', 'lover of coffee'];
 let count = 0;
 const title = document.querySelector('#landingDesc');
-const timer = setInterval(titleChange, 2000);
+const timer = setInterval(titleChange, 1500);
 
 function titleChange (){
   title.innerHTML = descriptions[count];
@@ -13,15 +13,6 @@ function titleChange (){
 }
 
 titleChange();
-
-//Resume Button
-const resumeButton = document.getElementById('resumeBtn');
-
-function resume(){
-  window.open("https://drive.google.com/open?id=1U2OaiKiEySZfqx6ggzcDA5JgYlSvjjCq")
-}
-
-resumeButton.addEventListener('click', resume);
 
 
 //View Project Buttons
