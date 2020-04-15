@@ -546,6 +546,23 @@ form{
     }
 }
 
+@media screen and (max-width: 487px) {
+    /* Skills */
+    .skills{
+        width: 90%;
+    }
+
+    .skills li{
+        margin: 10px;
+    }
+
+    .skillsDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 375px){
     /* Common Classes */
     .sectionHeader::after{ /* Pseudo Element to add white border bottom */
