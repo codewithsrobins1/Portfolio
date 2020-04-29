@@ -36,7 +36,6 @@ body{
   width: 100%;
   max-width: 75rem;
   margin: 0 auto;
-  padding: 0 1.5rem;
 }
 
 /* Landing Page */
@@ -179,15 +178,19 @@ nav{
 }
 
 .skills{
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 50%;
+     */
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 2rem;
 }
 
 .skills li{
     list-style: none;
-    margin: 3em;
 }
 
 .skills img{
@@ -201,7 +204,6 @@ nav{
 
 .skillsImg img{
     height: 3em;
-    width: 3em;
 }
 
 .caption{
@@ -218,8 +220,7 @@ nav{
 /* Projects */
 .projectsContainer{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); /* adds responsiveness */
-    /* minmax = box is flexible but has to have a minimum of 25rem */
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); /* adds responsiveness */
   grid-gap: 5rem;
 }
 
@@ -243,7 +244,6 @@ nav{
 }
 
 .projectDesc{
-    text-align: center;
     font-size: 1.1em;
     width: 90%;
     text-align: left;
@@ -437,7 +437,7 @@ form{
 
     /* About Me */
     .sectionDesc{
-        text-align: left;
+        text-align: center;
         font-size: 1.2em;
         color: #fff;
         width: 70%;
@@ -470,12 +470,10 @@ form{
 
     .skills li{
         list-style: none;
-        margin: 3em;
     }
 
     .skills img{
         height: 5em;
-        width: 5em;
         padding: 1em;
     }
 
@@ -533,11 +531,13 @@ form{
     .sectionDesc{
         font-size: 1.1em;
         width: 90%;
+        text-align: center;
     }
 
     /* Projects */
     .projectDesc{
         width: 75%;
+        text-align: center;
     }
 
     /* Social Icons */
@@ -617,11 +617,7 @@ form{
 
      /* Skills */
     .skills{
-        width: 80%;
-    }
-
-    .skills li{
-        margin: 10px;
+        width: 100%;
     }
 
     .skillsDiv{
@@ -632,7 +628,6 @@ form{
 
     .skills img{
         height: 5em;
-        width: 5em;
     }
 
     .caption{
