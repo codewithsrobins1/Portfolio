@@ -12,17 +12,18 @@ https://codewithsrobins1.tech/
 * CSS
 * Javascript
 * Formspree - form backend, API and email service for HTML forms
+* Animate on Scroll (https://github.com/michalsnik/aos) - Library for fade in effects
 
 ### Projects 
 
 1) Palette Picker - https://palette-picker.netlify.com/
-2) Kanye Says - https://palette-picker.netlify.com/
-3) Last Drop Coffee - https://codewithsrobins1.github.io/LastDropCafe/
-4) Lien Cakes - https://codewithsrobins1.github.io/LienCakes/
-5) Environ Real Estate - https://codewithsrobins1.github.io/EnvironRealEstate/
-6) Premrajan Tutoring - https://codewithsrobins1.github.io/PremTutoring/
-7) Sysean Tech - https://codewithsrobins1.github.io/Sysean-Tech/
-8) Sean's Skills Training - https://codewithsrobins1.github.io/Seans-Skills-Training/
+2) ChillyOut - https://chilly-out.netlify.app/
+3) Pokemon Collector - https://pokemon-collect.netlify.app/
+4) Last Drop Coffee - https://codewithsrobins1.github.io/LastDropCafe/
+5) Axiom Academy - https://axiom-academy.netlify.app/
+6) Enma Photography - https://enma-photography.netlify.app/
+7) Environ Real Estate - https://codewithsrobins1.github.io/EnvironRealEstate/
+8) Premrajan Tutoring - https://codewithsrobins1.github.io/PremTutoring/
 
 ### Credit 
 
