@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="stars.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -46,7 +47,7 @@
 
     <div class="mainWrapper">
         <!-- About Me-->
-        <section id='aboutMe' class="container">
+        <section id='aboutMe' class="container" data-aos="fade-left">
             <div class="aboutContainer">
                 <h1 class="sectionHeader">About Me</h1 class="aboutHeader">
                 <p class="sectionDesc">I'm a front-end web developer from Huntington Beach, CA.  
@@ -55,7 +56,7 @@
             </div>
 
          <!-- Skills -->
-        <div class="skillsContainer">
+        <div class="skillsContainer" data-aos="fade-right"> 
         <h1 class="sectionHeader">Skills</h1>
             <div class="skillsDiv">
                 <ul class="skills">
@@ -114,7 +115,7 @@
         </section>
 
     <!-- Projects -->
-    <section id='projects' class="container">
+    <section id='projects' class="container" data-aos="fade-up">
         <h1 class="sectionHeader">Projects</h1>
 
         <div class="projectsContainer">
@@ -201,7 +202,7 @@
         </section>
 
         <! -- Contact Me -->
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <section id="contactForm">
                 <h1 class="sectionHeader">Contact Me</h1>
                 <div class="contactDesc">
@@ -236,6 +237,13 @@
         </div>
     </div>
 
-    <script src="script.js"></script>  
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>  
     </body>
 </html>
