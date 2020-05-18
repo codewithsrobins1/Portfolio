@@ -17,7 +17,7 @@ https://codewithsrobins1.tech/
 ### Projects 
 
 1) Palette Picker - https://palette-picker.netlify.com/
-2) ChillyOut - https://chilly-out.netlify.app/
+2) Wow Gold Tracker - https://wowgoldtracker.netlify.app/
 3) Pokemon Collector - https://pokemon-collect.netlify.app/
 4) Last Drop Coffee - https://codewithsrobins1.github.io/LastDropCafe/
 5) Axiom Academy - https://axiom-academy.netlify.app/
