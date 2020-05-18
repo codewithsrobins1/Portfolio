@@ -22,8 +22,8 @@ var paletteCode = document.getElementById('paletteCode');
 var pokeSite = document.getElementById('pokeSite');
 var pokeCode = document.getElementById('pokeCode');
 
-var chillSite = document.getElementById('chillSite');
-var chillCode = document.getElementById('chillCode');
+var goldSite = document.getElementById('wowGoldSite');
+var goldCode = document.getElementById('wowGoldCode');
 
 var axiomSite = document.getElementById('axiomSite');
 var axiomCode = document.getElementById('axiomCode');
@@ -62,17 +62,17 @@ function pokeSource(){
 pokeSite.addEventListener('click', pokePort);
 pokeCode.addEventListener('click', pokeSource);
 
-//ChillyOut Project
-function chillyPort(){
-  window.open('https://chilly-out.netlify.app');
+//Wow Gold Tracker Project
+function wowGoldPort(){
+  window.open('https://wowgoldtracker.netlify.app/');
 };
 
-function chillySource(){
-  window.open('https://github.com/codewithsrobins1/chilly-out')
+function wowGoldSource(){
+  window.open('https://github.com/codewithsrobins1/wow-gold-tracker')
 }
 
-chillySite.addEventListener('click', chillyPort);
-chillyCode.addEventListener('click', chillySource);
+goldSite.addEventListener('click', wowGoldPort);
+goldCode.addEventListener('click', wowGoldSource);
 
 //Last Drop Coffee Project
 function coffeePort(){
