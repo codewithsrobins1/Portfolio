@@ -34,8 +34,8 @@ var enmaCode = document.getElementById('enmaCode');
 var environSite = document.getElementById('environSite');
 var environCode = document.getElementById('environCode');
 
-var tutoringSite = document.getElementById('tutoringSite');
-var tutoringCode = document.getElementById('tutoringCode');
+var movieSearchSite = document.getElementById('movieSearcherSite');
+var movieSearchCode = document.getElementById('movieSearcherCode');
 
 
 //PalettePicker Project
@@ -122,16 +122,16 @@ function environSource(){
 environSite.addEventListener('click', environPort);
 environCode.addEventListener('click', environSource);
 
-//Tutoring Project
-function tutoringPort(){
-  window.open('https://codewithsrobins1.github.io/PremTutoring/');
+//MovieSearch Project
+function movieSearchPort(){
+  window.open('https://movie-searcher-redux.netlify.app/');
 };
 
-function tutoringSource(){
-  window.open('https://github.com/codewithsrobins1/PremTutoring')
+function movieSearchSource(){
+  window.open('https://github.com/codewithsrobins1/movie-search-redux')
 }
 
-tutoringSite.addEventListener('click', tutoringPort);
-tutoringCode.addEventListener('click', tutoringSource)
+movieSearchSite.addEventListener('click', movieSearchPort);
+movieSearchCode.addEventListener('click', movieSearchSource);
 
 
