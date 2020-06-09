@@ -16,6 +16,9 @@ titleChange();
 
 
 //View Project Buttons
+var breakdownSite = document.getElementById('breakdownSite');
+var breakdownCode = document.getElementById('breakdownCode');
+
 var paletteSite = document.getElementById('paletteSite');
 var paletteCode = document.getElementById('paletteCode');
 
@@ -36,6 +39,19 @@ var environCode = document.getElementById('environCode');
 
 var movieSearchSite = document.getElementById('movieSearcherSite');
 var movieSearchCode = document.getElementById('movieSearcherCode');
+
+
+//Breakdown Project
+function breakdownPort(){
+  window.open('https://breakdown-landing.netlify.app/');
+};
+
+function breakdownSource(){
+  window.open('https://github.com/codewithsrobins1/breakdown-landing-page')
+}
+
+breakdownSite.addEventListener('click', breakdownPort);
+breakdownCode.addEventListener('click', breakdownSource);
 
 
 //PalettePicker Project
