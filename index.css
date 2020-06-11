@@ -38,10 +38,6 @@ body{
   margin: 0 auto;
 }
 
-.metaImage{
-    display: none;
-}
-
 /* Landing Page */
 .landingPage{
     height: 100vh;
