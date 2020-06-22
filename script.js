@@ -34,8 +34,8 @@ var axiomCode = document.getElementById('axiomCode');
 var enmaSite = document.getElementById('enmaSite');
 var enmaCode = document.getElementById('enmaCode');
 
-var environSite = document.getElementById('environSite');
-var environCode = document.getElementById('environCode');
+var marvelSite = document.getElementById('marvelSite');
+var marvelCode = document.getElementById('marvelCode');
 
 var movieSearchSite = document.getElementById('movieSearcherSite');
 var movieSearchCode = document.getElementById('movieSearcherCode');
@@ -126,17 +126,17 @@ function enmaSource(){
 enmaSite.addEventListener('click', enmaPort);
 enmaCode.addEventListener('click', enmaSource);
 
-// Environ Project
-function environPort(){
-  window.open('https://codewithsrobins1.github.io/EnvironRealEstate/');
+// Marvel Project
+function marvelPort(){
+  window.open('https://marvel-battle-arena.netlify.app/');
 };
 
-function environSource(){
-  window.open('https://github.com/codewithsrobins1/EnvironRealEstate')
+function marvelSource(){
+  window.open('https://github.com/codewithsrobins1/marvel-battle-arena')
 }
 
-environSite.addEventListener('click', environPort);
-environCode.addEventListener('click', environSource);
+marvelSite.addEventListener('click', marvelPort);
+marvelCode.addEventListener('click', marvelSource);
 
 //MovieSearch Project
 function movieSearchPort(){
