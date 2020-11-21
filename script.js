@@ -115,16 +115,16 @@ axiomSite.addEventListener('click', axiomPort);
 axiomCode.addEventListener('click', axiomSource);
 
 //Enma Photography
-function enmaPort(){
-  window.open('https://enma-photography.netlify.app');
+function fittedPort(){
+  window.open('https://fitted-app.netlify.app/');
 };
 
-function enmaSource(){
-  window.open('https://github.com/codewithsrobins1/enma-photography')
+function fittedSource(){
+  window.open('https://github.com/codewithsrobins1/fitted-mern-app')
 }
 
-enmaSite.addEventListener('click', enmaPort);
-enmaCode.addEventListener('click', enmaSource);
+fittedSite.addEventListener('click', fittedPort);
+fittedCode.addEventListener('click', fittedSource);
 
 // Marvel Project
 function marvelPort(){
